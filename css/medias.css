@@ -1,0 +1,18 @@
+@media (max-width: 635px) {
+  #main-menu > ul > li {
+    width: 100%;
+    border-bottom: thin solid var(--grey-dark);
+    margin: 0px;
+  }
+
+  #main-menu > ul > li > ul {
+    margin-top: 0px;
+  }
+
+  #main-menu > ul > li > a {
+    border-right: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+}
