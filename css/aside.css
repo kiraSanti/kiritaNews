@@ -1,0 +1,73 @@
+#aside {
+  max-width: 175px;
+  /* outline: 2px solid fuchsia; */
+  margin-top: 60px;
+}
+
+.widget {
+  background-color: var(--secondary-color-light);
+  border: 2px solid var(--grey-dark);
+  margin-bottom: 16px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+h3 {
+  margin: 0px;
+  padding: 4px 8px;
+  font-weight: normal;
+  color: var(--grey-dark);
+  border-bottom: 1px solid var(--grey-dark);
+}
+
+.input {
+  color: var(--primary-color-dark);
+  border: 1px solid var(--grey-dark);
+  border-radius: 6px;
+  font-family: "NunitoSans-Regular", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  box-shadow: 1.5px 1.5px 0px 1px var(--primary-color-light);
+  
+}
+
+.field {
+  display: inline-block;
+  margin: 16px 12px 0px;
+  max-width: 130px;
+}
+
+.loginbutton {
+  padding: 2px 4px;
+  margin: 24px 12px 8px;
+  font-size: small;
+  transition: all 0.3s;
+}
+
+.loginbutton:hover {
+  background-color: var(--primary-color-light);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#entradas > ul > li > a {
+  display: inline-block;
+  background-color: var(--secondary-color-light);
+  border-bottom: 1px solid var(--grey-dark);
+  padding: 4px 12px 4px 8px;
+}
+
+#entradas > ul > li:nth-child(5) > a {
+  border-bottom: none;
+}
+
+#entradas > ul > li > a:hover {
+  background-color: var(--secondary-color-dark);
+}
+
+#quote {
+  margin: 0px;
+  padding: 8px 12px 8px 8px;
+  font-size: small;
+  font-style: italic;
+  color: var(--primary-color-dark);
+}

@@ -12,3 +12,8 @@
   font-family: "NunitoSans-Bold";
   src: url("/assets/fonts/NunitoSans-Bold.ttf");
 }
+
+@font-face {
+  font-family: "CHINESER";
+  src: url("/assets/fonts/CHINESER.TTF");
+}

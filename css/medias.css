@@ -12,7 +12,47 @@
   #main-menu > ul > li > a {
     border-right: none;
     display: block;
-    padding: 10px;
+    padding: 4px;
     text-align: center;
+  }
+
+  #aside {
+    max-width: 100%;
+  }
+
+  #entradas > ul > li > a {
+    display: block;
+    text-align: center;
+    /* background-color: red; */
+  }
+
+  #aside > div > h3 {
+    text-align: center;
+  }
+
+  #login {
+    padding: 16px 20px 8px 20px;
+  }
+
+  .input {
+    margin: 0px;
+  }
+
+  #email {
+    margin-right: 20px;
+  }
+
+  /* #password {
+    margin-right: 135px;
+  } */
+
+  .loginbutton {
+    margin: 0px;
+    float: right;
+    /* margin-left: 100px; */
+  }
+
+  #quote {
+    padding: 8px 12px 8px 16px;
   }
 }

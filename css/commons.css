@@ -16,8 +16,15 @@ body {
 }
 
 #main-menu-container {
-  max-width: 75%;
+  max-width: 85%;
   margin: auto;
+  /* outline: 2px solid fuchsia; */
+}
+
+#aside-container {
+  max-width: 85%;
+  margin: auto;
+  /* outline: 2px solid lime; */
 }
 
 ul {
@@ -34,6 +41,7 @@ a {
 }
 
 a:hover {
-  background-color: var(--primary-color-light);
+  background-color: var(--secondary-color-dark);
   font-family: "NunitoSans-Regular", Arial, Helvetica, sans-serif;
 }
+
