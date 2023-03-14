@@ -8,7 +8,7 @@ body {
 
 #container {
   max-width: 100%;
-  /* border: thin solid green; */
+  /* border: thin solid red; */
 }
 
 #header-container {
@@ -18,13 +18,31 @@ body {
 #main-menu-container {
   max-width: 85%;
   margin: auto;
-  /* outline: 2px solid fuchsia; */
+  margin-bottom: 60px;
+  /* border: 2px solid fuchsia; */
+}
+
+#sub-container {
+  max-width: 85%;
+  margin: auto;
+  border: 2px solid var(--grey-dark);
+  background-color: var(--secondary-color-dark);
+  border-radius: 10px; 
+  padding: 20px;
+  box-sizing: border-box;
+  height: 1000px;
 }
 
 #aside-container {
-  max-width: 85%;
-  margin: auto;
-  /* outline: 2px solid lime; */
+  display: inline-block;
+  /* border: 2px solid lime; */
+  width: 21%;
+}
+
+#content-container {
+  float: right;
+  /* border: 2px solid lime; */
+  width: 78%;
 }
 
 ul {
@@ -41,7 +59,6 @@ a {
 }
 
 a:hover {
-  background-color: var(--secondary-color-dark);
+  background-color: var(--primary-color-light);
   font-family: "NunitoSans-Regular", Arial, Helvetica, sans-serif;
 }
-

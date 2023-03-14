@@ -1,7 +1,7 @@
 #aside {
   max-width: 175px;
   /* outline: 2px solid fuchsia; */
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 .widget {
@@ -40,7 +40,7 @@ h3 {
   padding: 2px 4px;
   margin: 24px 12px 8px;
   font-size: small;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 .loginbutton:hover {
@@ -61,7 +61,7 @@ h3 {
 }
 
 #entradas > ul > li > a:hover {
-  background-color: var(--secondary-color-dark);
+  background-color: var(--primary-color-light);
 }
 
 #quote {
