@@ -45,6 +45,11 @@ body {
   width: 78%;
 }
 
+#footer-container {
+  max-width: 100%;
+  /* border: 2px solid lime; */
+}
+
 ul {
   margin: 0px;
   padding: 0px;

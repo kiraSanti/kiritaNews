@@ -1,0 +1,31 @@
+footer {
+  background-color: var(--secondary-color-light);
+  padding: 60px 160px;
+  margin-top: 200px;
+  border-top: 3px solid var(--grey-dark);
+}
+
+footer > div {
+  max-width: fit-content;
+  margin: auto;
+  text-align: center;
+  border: 1px solid var(--grey-dark);
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px 1px var(--primary-color-light);
+  overflow: hidden;
+}
+
+footer > div:nth-child(1) {
+  margin-bottom: 24px;
+}
+
+footer > div > a {
+  display: inline-block;
+  color: var(--grey-dark);
+  padding: 4px 16px;
+}
+
+footer > div > a:hover {
+  background-color: var(--primary-color-light);
+  font-weight: bold;
+}
