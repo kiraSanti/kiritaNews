@@ -1,0 +1,67 @@
+#content > article,
+#content > h1 {
+  background-color: var(--secondary-color-light);
+  border: 1px solid var(--grey-dark);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#content > h1 {
+  margin: 0px;
+  max-width: fit-content;
+  padding: 4px 12px;
+  color: var(--grey-dark);
+  font-weight: lighter;
+}
+
+#content > article {
+  margin-top: 16px;
+}
+
+#content > article > h2 {
+  margin: 0px;
+  padding: 6px 12px;
+  color: var(--grey-dark);
+  border-bottom: 1px solid var(--grey-dark);
+  font-weight: lighter;
+}
+
+#content > article > p {
+  margin: 8px 24px 4px 12px;
+  text-align: justify;
+}
+
+#content > article > a {
+  float: right;
+  margin: 4px 12px 8px;
+  padding: 2px 4px;
+  font-size: small;
+  transition: all 0.3s;
+}
+
+/* ------------------------------------------------------ */
+#content > ul {
+  float: right;
+  background-color: var(--secondary-color-light);
+  border: 1px solid var(--grey-dark);
+  border-radius: 6px;
+  margin: 8px;
+  margin-right: 0px;
+  overflow: hidden;
+}
+
+#content > ul > li {
+  float: left;
+  /* border: 1px solid red; */
+}
+
+#content > ul > li > a{
+  float: left;
+  padding: 1px 8px;
+  border-right: 1px solid var(--grey-dark);
+}
+
+#content > ul > li:nth-child(4) > a{
+  border-right: none;
+}
+

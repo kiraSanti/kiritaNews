@@ -1,12 +1,10 @@
 #aside {
-  max-width: 175px;
-  /* outline: 2px solid fuchsia; */
-  margin-top: 60px;
+  /* outline: 2px solid yellow; */
 }
 
 .widget {
   background-color: var(--secondary-color-light);
-  border: 2px solid var(--grey-dark);
+  border: 1px solid var(--grey-dark);
   margin-bottom: 16px;
   border-radius: 10px;
   overflow: hidden;
@@ -61,7 +59,7 @@ h3 {
 }
 
 #entradas > ul > li > a:hover {
-  background-color: var(--secondary-color-dark);
+  background-color: var(--primary-color-light);
 }
 
 #quote {

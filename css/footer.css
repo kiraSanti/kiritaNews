@@ -1,0 +1,31 @@
+footer {
+  padding: 32px;
+}
+
+footer > * {
+  max-width: fit-content;
+  margin: auto;
+}
+
+#made {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+#repo {
+  margin-bottom: 36px;
+}
+
+footer > p > a {
+  border: 1px solid var(--grey-dark);
+  padding: 2px 4px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  box-shadow: 1.5px 1.5px 0px 1px var(--primary-color-light);
+  overflow: hidden;
+}
+
+footer > p:nth-child(1) > a {
+  border: 1px solid var(--grey-dark);
+  margin-left: 8px;
+}
