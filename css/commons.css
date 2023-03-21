@@ -61,7 +61,7 @@ ul {
 }
 
 a {
-  color: var(--primary-color-dark);
+  color: var(--grey-dark);
   font-family: "NunitoSans-Light", Arial, Helvetica, sans-serif;
   text-decoration: none;
   transition: all 0.3s;
